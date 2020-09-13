@@ -1,0 +1,22 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        int n=15;
+       String m = "abdullah";
+      System.out.println(cr(19));
+       
+        
+        
+     }
+     public static String cr (int n) {
+        
+        if (n >=18){ 
+       return "مبروك يا عبدالله سوف تحصل على رخصه القياده" ; }
+       else if (n<=18){
+       
+         return "للأسف يا إسمك, ما زلت صغير للحصول على الرخصة"
+  ;}
+     }
+     
+}
